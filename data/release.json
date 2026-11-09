@@ -1,0 +1,1036 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "2026.11.09-r1",
+  "releasedAt": "2026-11-09",
+  "defaultMetricId": "police_article_148_recorded_acts",
+  "defaultYear": 2025,
+  "boundaryVersion": "prg-2025-08",
+  "files": [
+    {
+      "path": "data/sources.json",
+      "sha256": "c4da5499d0a1b612b85a5b8f1388f6177567a57098052f128c350e9ff704a51b",
+      "recordCount": 9,
+      "sizeBytes": 18429
+    },
+    {
+      "path": "data/series.json",
+      "sha256": "25b56c286ca2ee3039c3aff3371a401b58698ac1d664e1b26e1368ae53e02e03",
+      "recordCount": 12,
+      "sizeBytes": 20857
+    },
+    {
+      "path": "data/observations.json",
+      "sha256": "40f6b223b52226fcbc7dd5a3fa8c756caef20d180219b7287fe4f6f14e37dfde",
+      "recordCount": 543,
+      "sizeBytes": 194039
+    },
+    {
+      "path": "data/population.json",
+      "sha256": "ab07e1da60e36e9bd0700478bf01538dbfac851812a6389bfcd9199dd50fed3b",
+      "recordCount": 459,
+      "sizeBytes": 71618
+    },
+    {
+      "path": "data/national.json",
+      "sha256": "f0f772c57b257aa5d9c784f2ad318c3bf0f409b84625731b6620d2a48dcb2a08",
+      "recordCount": 27,
+      "sizeBytes": 24413
+    },
+    {
+      "path": "data/regional.json",
+      "sha256": "b418da636df2ad602173bff155725cce3c44bf8f945ea640e17f5ef7fc0108f1",
+      "recordCount": 432,
+      "sizeBytes": 203608
+    },
+    {
+      "path": "data/provinces.json",
+      "sha256": "c159f4a901db4e6df897138cac03d0955b3242a0c41b0d90900e03d61f5493f9",
+      "recordCount": 16,
+      "sizeBytes": 1030
+    },
+    {
+      "path": "data/cases.json",
+      "sha256": "3e703a33206f6937fa03671264cad9c4997fbb7c4b9b78db7f2e5cae5935cde6",
+      "recordCount": 88,
+      "sizeBytes": 758124
+    },
+    {
+      "path": "assets/geo/wojewodztwa.geojson",
+      "sha256": "0602dbd9c5fa3980b549ddb617cc3979c19f0fa23d1fbae08d87b264373b2118",
+      "recordCount": 16,
+      "sizeBytes": 200167
+    }
+  ],
+  "coverageSummary": {
+    "nationalYearsApproved": [
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "regionalYearsApproved": [
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "regionalYearsUnreviewed": [],
+    "gusVictimsYearsApproved": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "gusMortalitySdgYearsApproved": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "approvedCaseCount": 88
+  },
+  "supplementarySeries": {
+    "gusMortalitySdgRates2010To2024": [
+      {
+        "year": 2010,
+        "rate_per_100k": 0.92
+      },
+      {
+        "year": 2011,
+        "rate_per_100k": 1.06
+      },
+      {
+        "year": 2012,
+        "rate_per_100k": 0.96
+      },
+      {
+        "year": 2013,
+        "rate_per_100k": 1.1
+      },
+      {
+        "year": 2014,
+        "rate_per_100k": 0.87
+      },
+      {
+        "year": 2015,
+        "rate_per_100k": 0.76
+      },
+      {
+        "year": 2016,
+        "rate_per_100k": 0.74
+      },
+      {
+        "year": 2017,
+        "rate_per_100k": 0.68
+      },
+      {
+        "year": 2018,
+        "rate_per_100k": 0.53
+      },
+      {
+        "year": 2019,
+        "rate_per_100k": 0.65
+      },
+      {
+        "year": 2020,
+        "rate_per_100k": 0.57
+      },
+      {
+        "year": 2021,
+        "rate_per_100k": 0.59
+      },
+      {
+        "year": 2022,
+        "rate_per_100k": 0.49
+      },
+      {
+        "year": 2023,
+        "rate_per_100k": 0.52
+      },
+      {
+        "year": 2024,
+        "rate_per_100k": 0.48,
+        "deaths_total": 182,
+        "deaths_male": 144,
+        "deaths_female": 38,
+        "deaths_urban": 128,
+        "deaths_rural": 54
+      }
+    ]
+  },
+  "revisions": [
+    {
+      "revisionId": "rev-2026-04-21-dane-gov-final",
+      "releasedAt": "2026-11-08",
+      "supersedesRevisionId": "rev-2026-01-16-kgp-communique",
+      "summary": "Pełny zweryfikowany szereg 1999–2025 z pierwotnych tabel KGP / Dane.gov.pl (zasoby 1160448, 1723681, 1160417, 1723707 — 16/16 województw i podział garnizonowy KSP Warszawa / KWP Radom), mianowników ludności GUS BDL (1999–2025) oraz serii ofiar zabójstw GUS (2013–2024) i zgonów ICD-10 X85–Y09 (2010–2024)."
+    },
+    {
+      "revisionId": "rev-2026-01-16-kgp-communique",
+      "releasedAt": "2026-01-16",
+      "supersedesRevisionId": null,
+      "summary": "Ogólnokrajowy komunikat prasowy KGP z 16.01.2026 (Polska: 503 czyny stwierdzone w 2024 r., 505 w 2025 r.; KGP nie opublikowała tabeli uzgodnień wyjaśniającej różnicę 4–5 czynów względem tabel terytorialnych 1160448 i 1723681 w serwisie Dane.gov.pl)."
+    }
+  ],
+  "approvedCaseSignatures": [
+    "de3c4f548ccfae0aa79c59a9c5398bb0a2d5b91fa23cf2b7a7473425fca7ac1d",
+    "8c4c5216955917e732e0c235c91bd88d83d4cdbe55f85344f1495eb15a7bb404",
+    "c4cabacd14f114d90920a87c43b1e8c4423bf410882c43b457a1729f5e60de70",
+    "a69320a76875b2a91e1807d7183341ffe5563358e7250911cdfa9eef3535ac13",
+    "a5d4e4bcda5632c50289706e5e1fd2dec2194cfa51b8d808e918872e49905d02",
+    "3250244b1eba3ee17bc1ffdcca5065231bbae33fdcf5edd29cb6887a2b14b99d",
+    "57f6d06c08b06af8fde594402bb4b980e3cf2f2684c0f2a218ef78b9e97f3342",
+    "b1f447eee9eb1f8c3e3f273c0bbfa3a2cfca7c8b56d171bf5dfa9ed24eba3dec",
+    "f0ad60a695c6efd93a23e9b7007390174d7eb7ba7b04e626027109416f83b353",
+    "3143f9c92a7fe50a773ca15f79d7eb1856ae8319b247709a33a5e7f36c383484",
+    "902a69b64dd9d203cac5177fcf76f562a99ed983b25b810abd19d44a3e2f956f",
+    "8bf672d78eb3f8f2d22cc6de1680bc156769262ecaeae7a83ab40a58ad36ad7e",
+    "9a1daa0a5e34efcc083bea950e20cfe22e80179ecf0a18f96f12a9b60e2a7019",
+    "ece7cf20d131f179006e8a50a0dc410016413b6b299f816e6970219c542e10ec",
+    "106c042e6fe623cdf470c7059d93b932f2f62a204790823459e7e3e741e640d9",
+    "a264089126e0de08513e6e2681baf884afae7f7b695ecdf23f7f3eea1b48f5fb",
+    "62ba6369a45ba88a3229283883fc0278a7e8a09da13a317ff19cc0103ab77b7c",
+    "2309171e8a5795f13a4e44f1752ecfb2ca4313e31c0225cfdd31ebb0fb71137b",
+    "eff2696dedad7419351b6c0963dda5658663b033a887dcb41f8b2e50a6441a16",
+    "0d50ad76c333d1c31522c966f17fd5c0bed58d4f812dee51c7622ec2b7ed20ca",
+    "a9b5c4e3e7abf3895d03f71d3d82ffa43716ff0919ffa8c1d0e557efbb9e4ed1",
+    "19d2458170292cddcc70254b0306c512129e941a0793390add94bb7df7d89b5b",
+    "0466c4ba5bc1d36c24ab9ebbd5599329f7017af724c683efd1672c1d3c74684c",
+    "37dc69edc71cd48ca1ac182636bc1903f40aa8fdff9cd771e16dda7b5e3f9921",
+    "20bf093530fe52d6c9a21e0e2d34b299cf07b629758b4b37056402bd69b4ad8a",
+    "f925ba36b4e747623050991e7a610ffa57d9e4dbcf127fde5fc50112ad4c40c3",
+    "0011730327720f7d7edd24f9f274368a5c7ea643dafb15a9d8ebc6028ba6e05e",
+    "5053aaa7d9c49ff097fa907301589a634092e2d63ad8a5d8bea1d10dc02e3e86",
+    "1879d8a5282ae0e3f447199cb27997328967228ba1af25bbd8abac49596929ab",
+    "307f16a4707e0b489ca054f6f42abbb6bac1ed8234569925b5902c0f82e967ef",
+    "998011a93fb37d27e4538cbe1866a12157eb7ab0540fc1e554de16686ee8cd96",
+    "0f9df95412892c3b07e2c565245321bb9fccaced4113aaa68db0d1c23bb41319",
+    "c4dd4e477d611bcb8fc2b8778c8f97c74f094d31b9daf1759f36ada161e4e6a9",
+    "7f738c193395b903528dc94edeb3db9df5c79aa3fae829bac91cf7af97c53e78",
+    "80291457b5d1375bd53f24ec9449f1855c73ea78968f6d1458820754d72b998e",
+    "768967b0846b602551dbf2f8e5bed9968ee68fb27ca6b857f6c565c9aba3f447",
+    "cee55fc3f4cbafc8af73e15aceaf6a50f02e8cad7781a6af4ed66edb7b2409c5",
+    "ca59fdbf3be967bb99dd04526af0102df8f346bb3d55f7dfdeb0cc0fe2db5784",
+    "8176f1e8377b5a83bea32df5495db4ea026b59409f923f5ec9c6886d89ca6382",
+    "26c1d3cdb38672cc0d5645ffd5d72aedb5ab57fa043fd3c95e2929b7b7457437",
+    "9dd60055a3d8e21852a60807571c7058dcd7a6b99048c821865a6383d6e32520",
+    "da04fdbdfa92032ba41808173e9fbcfbb7e1e186abdd3b31871baee00ea25adf",
+    "75ab454ce03049b48a2ebb0be50ab8a88de9e3e3d77bdb880fa86cd62ee0a47a",
+    "818389ad99c61ab8ccedf272acccb21122736a65e10eb43d28d8831a9f7f1796",
+    "e112d86eeb03482b97cf0ae8cbdfbac949ac5919f9b97044e6be97922c25e6a4",
+    "fca76157fbd7313edf888231312943e6de45a912b667be517664366572943c40",
+    "e4ce6cecb7f2e65f56a72be910fe531cc9b627bad54055aef8ab8b7871562ea6",
+    "745891f443b713fdfec1b8e43d6c62f006c49575f879afa0c982d030fb78e917",
+    "76d9a891832bf237713dd8337adf53f2411a0d8cad5ff52387c998ebec3486e3",
+    "16f153f291f2cb42e2fb635d973f3160bd5c5015e2e141c42ab8200b3bff87d9",
+    "c9d212297843dd4f56abf4c9789708acd7201b0f9b3c75317f6028b6dc25343c",
+    "36b5416f1e20cc2e8deef519626da9ea60b29e3ae01397a3e420fe3a1700f5bb",
+    "1954b06f6b8d928dd6bc9a226dc66665cd5905925f8ef0f9f1eab81677acf899",
+    "6b3f6a5c9b55d804d53794dc2fe9b53ca23e99583722cc3fdd2c8d50cb5a1b20",
+    "cfe17cc6a76141bf006961089a5dd202396345404220fe83c23b63cb1d9a4cbd",
+    "73f1a81173632e3737577b66d1210297ed301233d504e8d5fff8535f6c8e1794",
+    "20edbb0c44e6867f8c85e7b8b177d3318452a6f0d5da1053f44188b20169cf97",
+    "c9ea1828cbadcc250b78b315612b2957c2b4ef1fa4ea33687ef249ff554e4f0a",
+    "89146b88284331f636973fdd0900bd70651965869442afa9f891df8ecb10c468",
+    "e724fda58ec8dc292afebcd91540721615e30c7d1c0a768e17a10258ba4d4ad9",
+    "dce4c4e784e0b1f993d4c48091a0a2aad0162a8d82324187d9c9d31d3d6ad32c",
+    "6c36d7ca42210e099da169ca1dd167c55b9a3d70e361dfa9322bbd613edbf193",
+    "6f9036b3f8768effb9868df52073c41eeecca55e8f1235a9bb6298c43b6f100b",
+    "e2b593d3c3c527d7f62e5e89b60e1dd10731e739c1abe71f4c2646065ab07da8",
+    "0ab85eec0e34557d3fc78ee171117a0e86a75eddb9e39162f3aec7bfe57a74a7",
+    "91e84bd7e26eaba389329f579e06a5664fe4c8409b007eedce18a10c88e59024",
+    "d7e1aa9a58440e16d722b8fa22b0db94646273f5acb7f359b32406a79bdbd4ea",
+    "e4134be80d276489e91b9a6c246225aa8c4c992f8b251d8c0c0a94f7f2b8f6b9",
+    "4758bc46066d418d74fc0c86cc15b067078af4534e821e1f7b56c192bdbfcb16",
+    "265b75a9658a36b440676ab09ea41cb860ccedf53ff471030746b5949706f615",
+    "12b656710cd32eee55c47be6e75dc90460cdfe25a073ba15607d4b786b27bcf0",
+    "dcd68c87c8f0b869c56aebc46b263bae486c931368eda5f5324b0d87cf2c3054",
+    "db6111a99f60ecc7672999c71dfd837b7152ad07faa820f3783b7a1ea6f182be",
+    "e093ac20917b0c13a40009b4d232dd04f754ca3d8993c7d9d95f5c303926ccab",
+    "16e1e951eb4016f1b4278d94c20227d8e9b7b9815558118647f245b57af8b190",
+    "9681ecf3c3aa428dbce6c09453b679243294059642689abb7fc7ee2f5e9a215b",
+    "431a331006df232bf575cc954d3394b2b17ef71f8064ad5a16b9a8d34c032b30",
+    "d613476733c625b7ce0e89710b31cebd616ad45ddc4ad0bcb9e45636bcab31c1",
+    "4b9573816a0db57e8f149de17735a4bb124ca0a586e5dbdb72f213e4a7fc0749",
+    "a21dc1234004862b028d974732a73ad363f4a6b3d305aa7288aeac64fc9326cc",
+    "6123da41f3965099befabf17d0c36b09317ec9c476bb2093e048426ef2d8e9fa",
+    "7c5d16c2976985b8ed68ab92b807e9800fc86f7ded4d6d16280456690ede3d4a",
+    "4ed21614502f262b6be49f6fa10254ca09b40f50eb1e0b4b76d6c470349e9dd5",
+    "2b5cf2416538e3417ae61cb0b65868207614ba435b908d99e4e2b5302d9a0707",
+    "b7f59ac09fffde9fb82327708c5193ebebf3a6131865dae2fe5f4aecffd96644",
+    "a7ac3edcb43cfc75c65a7061811d036432621ebd88c96d12252d915df66b94f3",
+    "13c140f55c7876645669f8ec0245fed1df31695798e137d84b3900432aec34c8",
+    "63779b792e0e431f693a80161797940d104c18762ed75537babe132a3f3ac1d5"
+  ],
+  "approvedCaseDecisions": [
+    {
+      "caseId": "case-2022-waw-nowy-swiat",
+      "signature": "de3c4f548ccfae0aa79c59a9c5398bb0a2d5b91fa23cf2b7a7473425fca7ac1d",
+      "publicPayloadDigest": "0c287937fc802509a5731df453d10eee1fc5a824ba7ef5bb01125d55cfa4506b",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-chorzow-siemianowicka",
+      "signature": "8c4c5216955917e732e0c235c91bd88d83d4cdbe55f85344f1495eb15a7bb404",
+      "publicPayloadDigest": "0dfdc7aa7e1c4db2c2cf6c6b786a2ac2eadbfc25083e8dd2aee19feb2c9968bb",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-malbork-conviction",
+      "signature": "c4cabacd14f114d90920a87c43b1e8c4423bf410882c43b457a1729f5e60de70",
+      "publicPayloadDigest": "fde8dbe08a0a4ff3a554c04c2d13805f2508eac1273cc08265b31662c5e066e8",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2021-malbork-25years",
+      "signature": "a69320a76875b2a91e1807d7183341ffe5563358e7250911cdfa9eef3535ac13",
+      "publicPayloadDigest": "606a8c3c0f9c72d1a983cb174693d517ad811674de5d1c23abc554e1da05800f",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2021-wejherowo-attempted",
+      "signature": "a5d4e4bcda5632c50289706e5e1fd2dec2194cfa51b8d808e918872e49905d02",
+      "publicPayloadDigest": "00fc0fa9d66e6790b50579c1b02cfba5e36f7ef2d06fb47ab2169a37bd351366",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-1999-radom-coldcase",
+      "signature": "3250244b1eba3ee17bc1ffdcca5065231bbae33fdcf5edd29cb6887a2b14b99d",
+      "publicPayloadDigest": "e0a2725b3a5e9845cbcb2c510bdf43287ced2c2608a983fdfc11ee90016b0865",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2023-slupsk-indictment",
+      "signature": "57f6d06c08b06af8fde594402bb4b980e3cf2f2684c0f2a218ef78b9e97f3342",
+      "publicPayloadDigest": "9950eb276aac95286f13c0fefb34d8cbe015f3471c862b88ad24329394a615d6",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2024-wroclaw-fabryczna",
+      "signature": "b1f447eee9eb1f8c3e3f273c0bbfa3a2cfca7c8b56d171bf5dfa9ed24eba3dec",
+      "publicPayloadDigest": "016e43d8f41d6f8bc5fe8dac7d110e4bd097cb87193360a46a81aba568f3c687",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-waw-praga-polnoc",
+      "signature": "f0ad60a695c6efd93a23e9b7007390174d7eb7ba7b04e626027109416f83b353",
+      "publicPayloadDigest": "bb5b3108fb915784896343183ff35d117a1bc23e33d52f9f3573ec04841fe396",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2023-krakow-srodmiescie",
+      "signature": "3143f9c92a7fe50a773ca15f79d7eb1856ae8319b247709a33a5e7f36c383484",
+      "publicPayloadDigest": "0a51760166772702345113cd55ef9d967bcbecaaf2280d4b0dbab2f90c9bc600",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-krakow-rynek-glowny",
+      "signature": "902a69b64dd9d203cac5177fcf76f562a99ed983b25b810abd19d44a3e2f956f",
+      "publicPayloadDigest": "62675becbcc99a5f37846dc8619acf9724116ec348a1bb04af95e4e04548bf71",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-ostrowiec-swietokrzyski-triple",
+      "signature": "8bf672d78eb3f8f2d22cc6de1680bc156769262ecaeae7a83ab40a58ad36ad7e",
+      "publicPayloadDigest": "b5f915cafacf9108c9b40f4b6438e8b0e022a0d55c5af50198d98664c1b100db",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2010-michalow-sroda-slaska-archiwum-x",
+      "signature": "9a1daa0a5e34efcc083bea950e20cfe22e80179ecf0a18f96f12a9b60e2a7019",
+      "publicPayloadDigest": "c163eca9d34003c2ebc50993531867b68116aded4f800d2419dda3ec5f35bd97",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-lutynia-sroda-slaska-homicide",
+      "signature": "ece7cf20d131f179006e8a50a0dc410016413b6b299f816e6970219c542e10ec",
+      "publicPayloadDigest": "5b205810741e95a9123dbfae4191ae097e95b4deafeba8a6595937e4c442b063",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-wroclaw-stare-miasto-pustostan",
+      "signature": "106c042e6fe623cdf470c7059d93b932f2f62a204790823459e7e3e741e640d9",
+      "publicPayloadDigest": "24ce0da1bd7f2f962e9e8401100c7ef3874f10088da8cb18e83fa420730fe4da",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-wroclaw-fabryczna-18yo-attempt",
+      "signature": "a264089126e0de08513e6e2681baf884afae7f7b695ecdf23f7f3eea1b48f5fb",
+      "publicPayloadDigest": "f5e2e7883d68bdb6cc9e1f3150f7095baebcc5e95437b30c3f1f372cbb6c981c",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-bydgoszcz-myslecinek-tent-shooting",
+      "signature": "62ba6369a45ba88a3229283883fc0278a7e8a09da13a317ff19cc0103ab77b7c",
+      "publicPayloadDigest": "30244855ef9f5b4a0f045b250e499a4a104f964275a581504ada14c51e97d5bb",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2023-inowroclaw-25years-conviction",
+      "signature": "2309171e8a5795f13a4e44f1752ecfb2ca4313e31c0225cfdd31ebb0fb71137b",
+      "publicPayloadDigest": "0d823e5b379ee8a4895ef2cae650dcbe2d19ebdf26c803dcdb1deedf7b4661aa",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-torun-park-glazja-conviction",
+      "signature": "eff2696dedad7419351b6c0963dda5658663b033a887dcb41f8b2e50a6441a16",
+      "publicPayloadDigest": "63638b93573b841011f08656229fca965c4b22e0841f3e62602f98c2b682fa74",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-torun-hammer-attempted-conviction",
+      "signature": "0d50ad76c333d1c31522c966f17fd5c0bed58d4f812dee51c7622ec2b7ed20ca",
+      "publicPayloadDigest": "3ef7c2ee48d8564ff8072a7b3bd8ae2effc073716b835358e3d4b997b07bb1f4",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2024-zielona-gora-cruelty-indictment",
+      "signature": "a9b5c4e3e7abf3895d03f71d3d82ffa43716ff0919ffa8c1d0e557efbb9e4ed1",
+      "publicPayloadDigest": "b227c808173c31cb6583b45fa77ed6ee0aca1e003533941b814613f9c247b436",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-gorzow-wlkp-homicide-indictment",
+      "signature": "19d2458170292cddcc70254b0306c512129e941a0793390add94bb7df7d89b5b",
+      "publicPayloadDigest": "6508b8210e7a3f3766b9b006290c44e2596cc6ccbe641d4ce46a6f5c9f279216",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-lubow-torzym-new-year-attempt",
+      "signature": "0466c4ba5bc1d36c24ab9ebbd5599329f7017af724c683efd1672c1d3c74684c",
+      "publicPayloadDigest": "e070ae55db789083c1ac30f38a2e73c5db5ed6fd4c6881d875192a25233f9cea",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-gorzow-wlkp-14-stabs-attempt",
+      "signature": "37dc69edc71cd48ca1ac182636bc1903f40aa8fdff9cd771e16dda7b5e3f9921",
+      "publicPayloadDigest": "b6e26859daf41fc13a383f7ac66d551d493c1da71efd0c26e6dadba193d77e03",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2011-gdynia-archiwum-x-arrest",
+      "signature": "20bf093530fe52d6c9a21e0e2d34b299cf07b629758b4b37056402bd69b4ad8a",
+      "publicPayloadDigest": "f7ee904e561ccddbdc220fc4e27206d64c903d198c86477840cca0f70e62056e",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2012-tczew-archiwum-x-double",
+      "signature": "f925ba36b4e747623050991e7a610ffa57d9e4dbcf127fde5fc50112ad4c40c3",
+      "publicPayloadDigest": "0250fbd7b37732abea96849ffd8a0ff69d883c964a80275763777348bfb5288f",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-milocice-miastko-conviction",
+      "signature": "0011730327720f7d7edd24f9f274368a5c7ea643dafb15a9d8ebc6028ba6e05e",
+      "publicPayloadDigest": "574347f5b5994ecd8466f480287d99ab149fff074a42e6ee1bdd7bce9a43f06a",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-kepice-slupsk-forest-attempt",
+      "signature": "5053aaa7d9c49ff097fa907301589a634092e2d63ad8a5d8bea1d10dc02e3e86",
+      "publicPayloadDigest": "a6e0b278d9d6bd0bd6f5447e784e10f332b7879fa5b097636b4da47b5d2b1a2d",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2014-elblag-club-attempted-homicide",
+      "signature": "1879d8a5282ae0e3f447199cb27997328967228ba1af25bbd8abac49596929ab",
+      "publicPayloadDigest": "b553d6e2fbec1cebb26a703d4400057a1f9730f6504564d4e0fd3c8fee0fe36f",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-purda-olsztyn-conviction",
+      "signature": "307f16a4707e0b489ca054f6f42abbb6bac1ed8234569925b5902c0f82e967ef",
+      "publicPayloadDigest": "eca665d13baa175dd76e735d7966681f1a7f5728830dd566661f56425a637e06",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-gizycko-piekna-gora-taxi-homicide",
+      "signature": "998011a93fb37d27e4538cbe1866a12157eb7ab0540fc1e554de16686ee8cd96",
+      "publicPayloadDigest": "3602c620177ef94fa006fbfa4129eeb2362b7899ba66e6c9e4baff0575fde2a8",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-orzysz-pisz-robbery-homicide",
+      "signature": "0f9df95412892c3b07e2c565245321bb9fccaced4113aaa68db0d1c23bb41319",
+      "publicPayloadDigest": "b8077947cea7ac9204cfa62eb562cd6b34ca5c40b2d4bd9ab7a4c11395f967c2",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2008-pila-archiwum-x-solved",
+      "signature": "c4dd4e477d611bcb8fc2b8778c8f97c74f094d31b9daf1759f36ada161e4e6a9",
+      "publicPayloadDigest": "10d26bd4046543b465b634920e9cb48a08ac8bbc99a640c52e4c073050f39ead",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-grodzisk-wlkp-arson-indictment",
+      "signature": "7f738c193395b903528dc94edeb3db9df5c79aa3fae829bac91cf7af97c53e78",
+      "publicPayloadDigest": "a852941b33622a27621bb1eb7068a209d003b63432395f4aa1df0ee1614264c6",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-leszno-plac-metziga-attempt",
+      "signature": "80291457b5d1375bd53f24ec9449f1855c73ea78968f6d1458820754d72b998e",
+      "publicPayloadDigest": "bee2d95bdf330d602e00036dc363293e008fdd10e411dccaf79409f8e87c3bef",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-trzcianka-czarnkow-sword-homicide",
+      "signature": "768967b0846b602551dbf2f8e5bed9968ee68fb27ca6b857f6c565c9aba3f447",
+      "publicPayloadDigest": "79a0202e532b311074292b9e708380ddac8c8dd7ba83cbe45fe619779ee5150d",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-poznan-grunwald-stabbing-homicide",
+      "signature": "cee55fc3f4cbafc8af73e15aceaf6a50f02e8cad7781a6af4ed66edb7b2409c5",
+      "publicPayloadDigest": "79c2e4bece172509555ff3593564163c590695017d3dd70231cefa8aa8175a69",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2024-szczecin-zachod-stabbing-indictment",
+      "signature": "ca59fdbf3be967bb99dd04526af0102df8f346bb3d55f7dfdeb0cc0fe2db5784",
+      "publicPayloadDigest": "c46c688a109bdb54ec967c4aa8861a5e3b4b7da00dcc9e6570f25b441e896439",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-swinoujscie-przytor-indictment",
+      "signature": "8176f1e8377b5a83bea32df5495db4ea026b59409f923f5ec9c6886d89ca6382",
+      "publicPayloadDigest": "639420260fadc7085187c5395756efaa52ca022933ecda733b44fe630011fa50",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-koszalin-double-homicide-arrest",
+      "signature": "26c1d3cdb38672cc0d5645ffd5d72aedb5ab57fa043fd3c95e2929b7b7457437",
+      "publicPayloadDigest": "bc2399da4ab28c91407f5b282f13405a5b801447e0c8165e34e5ca1233545162",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-szczecinek-stabbing-homicide",
+      "signature": "9dd60055a3d8e21852a60807571c7058dcd7a6b99048c821865a6383d6e32520",
+      "publicPayloadDigest": "a167be51867cd079b85051e3c07a3e63908aa0fcc2d3f84f4ce600da09ed3389",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2024-bilgoraj-explosion-conviction",
+      "signature": "da04fdbdfa92032ba41808173e9fbcfbb7e1e186abdd3b31871baee00ea25adf",
+      "publicPayloadDigest": "1b1cb84170033526e1aa84761a5b35ffd0c87f77f3f86102a6c161dee77e95fc",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-chelm-double-homicide-life-sentence",
+      "signature": "75ab454ce03049b48a2ebb0be50ab8a88de9e3e3d77bdb880fa86cd62ee0a47a",
+      "publicPayloadDigest": "317b59431cf5f25a2ece4adce60b2c70e63bf8e4fa0f8cdf613c1a6fef7d8a24",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-zadebce-hrubieszow-psychiatric-motion",
+      "signature": "818389ad99c61ab8ccedf272acccb21122736a65e10eb43d28d8831a9f7f1796",
+      "publicPayloadDigest": "3e6052e926dad7ea4d6dcdf0f3fb0e073dff0ba328a2d82a6ca0abe8ed9e272d",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-biala-podlaska-pk-investigation",
+      "signature": "e112d86eeb03482b97cf0ae8cbdfbac949ac5919f9b97044e6be97922c25e6a4",
+      "publicPayloadDigest": "75f35d2f171ed8ec9971162e6f1addddb3c52bce8226283bc72406d4d9baad72",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2007-lodz-archiwum-x-arrest",
+      "signature": "fca76157fbd7313edf888231312943e6de45a912b667be517664366572943c40",
+      "publicPayloadDigest": "b3f6467d772a92a314d22e131154468afb0a907cd3980887956df1729fd63a92",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-lodz-baluty-newborn-attempt-conviction",
+      "signature": "e4ce6cecb7f2e65f56a72be910fe531cc9b627bad54055aef8ab8b7871562ea6",
+      "publicPayloadDigest": "dbb64e1e7f433b9c64ae8218c1e658fca760e1e8b1b692c88715d5aadfc0cc72",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-sieradz-zdunska-wola-child-indictment",
+      "signature": "745891f443b713fdfec1b8e43d6c62f006c49575f879afa0c982d030fb78e917",
+      "publicPayloadDigest": "b831e160b1b1dcac20a71b1342a186781174b8a27692e9762052c6e8612cb341",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-czarnozyly-wieruszow-homicide",
+      "signature": "76d9a891832bf237713dd8337adf53f2411a0d8cad5ff52387c998ebec3486e3",
+      "publicPayloadDigest": "ae5d4aac2e546302714ecdb2cc8d7d2551845d93344d873fe93f6df4d6d62046",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-tomaszow-mazowiecki-28years-conviction",
+      "signature": "16f153f291f2cb42e2fb635d973f3160bd5c5015e2e141c42ab8200b3bff87d9",
+      "publicPayloadDigest": "bb6511368a69daf68cd353247d12c79a4b9491c83b807d50358e228eaccf47e3",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2000-radzymin-rembelszczyzna-archiwum-x",
+      "signature": "c9d212297843dd4f56abf4c9789708acd7201b0f9b3c75317f6028b6dc25343c",
+      "publicPayloadDigest": "9680ef19ad05b435d0b181b8e87b1da3fe7a1d327d768fff03b4606af9e69b70",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2023-zyrardow-firearm-homicide-conviction",
+      "signature": "36b5416f1e20cc2e8deef519626da9ea60b29e3ae01397a3e420fe3a1700f5bb",
+      "publicPayloadDigest": "69705629293a5a405652d8d444cebc9d7d4f10508ec05b373b91a6f62e842fdd",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2023-siedlce-crosswalk-final-30years",
+      "signature": "1954b06f6b8d928dd6bc9a226dc66665cd5905925f8ef0f9f1eab81677acf899",
+      "publicPayloadDigest": "ea42d7d168bf5751759d7d981f02e713a11b6b4aeb76de983455e0d5b15b3e80",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-siedlce-paramedic-homicide-conviction",
+      "signature": "6b3f6a5c9b55d804d53794dc2fe9b53ca23e99583722cc3fdd2c8d50cb5a1b20",
+      "publicPayloadDigest": "f9df545bd3e7761ffabd4be4893ab16b721122f16cf86599ace7da1d47653840",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-repki-sokolow-podlaski-25years",
+      "signature": "cfe17cc6a76141bf006961089a5dd202396345404220fe83c23b63cb1d9a4cbd",
+      "publicPayloadDigest": "05feab96035524f30d59163a70fbe6dc2b71331af61f5ba5a6442766f8ff3926",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-jedlnia-letnisko-radom-homicide",
+      "signature": "73f1a81173632e3737577b66d1210297ed301233d504e8d5fff8535f6c8e1794",
+      "publicPayloadDigest": "59aef1ef0ca8068042b80664bef42fff4545a4bf7745abd49a5259c0472dc0ee",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2000-zelwa-giby-life-sentence",
+      "signature": "20edbb0c44e6867f8c85e7b8b177d3318452a6f0d5da1053f44188b20169cf97",
+      "publicPayloadDigest": "7baf77ed1b4d87dcd35e83a0f1e641f43907ee51c5c4ce9ae21f1e2090392e6e",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2011-suwalki-archiwum-x-arrest",
+      "signature": "c9ea1828cbadcc250b78b315612b2957c2b4ef1fa4ea33687ef249ff554e4f0a",
+      "publicPayloadDigest": "2e4e4570821e1bd824c8ef593ab15608306124884312f17dd33b933c5a0829bf",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2023-suwalki-psychiatric-discontinuation",
+      "signature": "89146b88284331f636973fdd0900bd70651965869442afa9f891df8ecb10c468",
+      "publicPayloadDigest": "e3e01484e66a38c3476d07fa178b414a62e29bcd04b9fcda0505703b2fc53ef5",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-rutki-lomza-25years-conviction",
+      "signature": "e724fda58ec8dc292afebcd91540721615e30c7d1c0a768e17a10258ba4d4ad9",
+      "publicPayloadDigest": "8c348d652d0627a4fb294aa802bf45d71c914153e012563c41797498a1764ae2",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-bielsk-podlaski-homicide-indictment",
+      "signature": "dce4c4e784e0b1f993d4c48091a0a2aad0162a8d82324187d9c9d31d3d6ad32c",
+      "publicPayloadDigest": "c450cc991e00b3e34cbc625b2a2e071ecd87d26d403db3efa6c9e0e19527a74d",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2024-oblekon-busko-homicide-arrests",
+      "signature": "6c36d7ca42210e099da169ca1dd167c55b9a3d70e361dfa9322bbd613edbf193",
+      "publicPayloadDigest": "2c339d8c725ffe66e3f20849ca3552c8f91502a992099cb22470bf4e2f5ddc94",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-skarzysko-kamienna-bar-attempt-indictment",
+      "signature": "6f9036b3f8768effb9868df52073c41eeecca55e8f1235a9bb6298c43b6f100b",
+      "publicPayloadDigest": "d771fe85e4d495662af5ae5c24f0a7484af02324f250cf31ce47b9f1697b258a",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-ostrowiec-swietokrzyski-october-indictment",
+      "signature": "e2b593d3c3c527d7f62e5e89b60e1dd10731e739c1abe71f4c2646065ab07da8",
+      "publicPayloadDigest": "0f88ff6fda44e9d246e11642ecf30263c5e65c428784693d822eb4e99061b440",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-mierzawa-wodzislaw-homicide",
+      "signature": "0ab85eec0e34557d3fc78ee171117a0e86a75eddb9e39162f3aec7bfe57a74a7",
+      "publicPayloadDigest": "ff9c33e29c0cfa1c0669386c62dd0416b090c00224f8599869caa51ef60201df",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-jedrzejow-29yo-homicide-arrest",
+      "signature": "91e84bd7e26eaba389329f579e06a5664fe4c8409b007eedce18a10c88e59024",
+      "publicPayloadDigest": "df53e18b3f335ba16c45a0c3546d562f1835ed7ed4b4d7870c1e8802721109b6",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2024-krakow-wawrzynca-discontinued",
+      "signature": "d7e1aa9a58440e16d722b8fa22b0db94646273f5acb7f359b32406a79bdbd4ea",
+      "publicPayloadDigest": "e729f76b3e21e11f35ffb8742b6e51708f1812f7fe1ad02c569de364e796bf3e",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-tarnowiec-tarnow-89yo-homicide",
+      "signature": "e4134be80d276489e91b9a6c246225aa8c4c992f8b251d8c0c0a94f7f2b8f6b9",
+      "publicPayloadDigest": "e41f07a39a9c60f47279102a062d42f2b961225ad73598d504c9ef107c2b0a5c",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-odrowaz-nowy-sacz-84yo-conviction",
+      "signature": "4758bc46066d418d74fc0c86cc15b067078af4534e821e1f7b56c192bdbfcb16",
+      "publicPayloadDigest": "266298343b12e451dc2847b088ef08ff1187fbd34cbcfe144ebb1dbe85fff464",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-radlow-tarnow-34yo-homicide-arrest",
+      "signature": "265b75a9658a36b440676ab09ea41cb860ccedf53ff471030746b5949706f615",
+      "publicPayloadDigest": "70e92883a7c936449693a91ff919a5279b74c944cc3fce11e658775cfc523924",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-bukowno-olkusz-forest-shooting",
+      "signature": "12b656710cd32eee55c47be6e75dc90460cdfe25a073ba15607d4b786b27bcf0",
+      "publicPayloadDigest": "27964c582c62193c48edcc0aa85c027408c150e9df4e9640825fa0e82288d513",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2024-namyslow-triple-homicide-discontinued",
+      "signature": "dcd68c87c8f0b869c56aebc46b263bae486c931368eda5f5324b0d87cf2c3054",
+      "publicPayloadDigest": "45a10ba58166ff15dbd3885a8d56936b6282e20da7e8523aecdf7334dde79f7c",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-nysa-homicide-conviction",
+      "signature": "db6111a99f60ecc7672999c71dfd837b7152ad07faa820f3783b7a1ea6f182be",
+      "publicPayloadDigest": "ae2b6467193d336dc08ce42e02a61969b3f590903822582f31497fc3be3f7a7c",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-sady-niemodlin-double-homicide",
+      "signature": "e093ac20917b0c13a40009b4d232dd04f754ca3d8993c7d9d95f5c303926ccab",
+      "publicPayloadDigest": "4d04a225ed15b0924429bffffe23c7177579b5275c3f28c51cb2f010b37ec012",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-kedzierzyn-kozle-homicide-arrest",
+      "signature": "16e1e951eb4016f1b4278d94c20227d8e9b7b9815558118647f245b57af8b190",
+      "publicPayloadDigest": "290db3356f65560c4744bb10e5b3210cf81e4800419be853fda644fa2f84eada",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-kadlub-strzelce-opolskie-double-indictment",
+      "signature": "9681ecf3c3aa428dbce6c09453b679243294059642689abb7fc7ee2f5e9a215b",
+      "publicPayloadDigest": "cc8e0d1022d2039c50843486f9a2658c81b631e7986c65f167ad9ea297313296",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-krosno-domestic-homicide-indictment",
+      "signature": "431a331006df232bf575cc954d3394b2b17ef71f8064ad5a16b9a8d34c032b30",
+      "publicPayloadDigest": "b943a27620584f85baf87dfa44cf97f41f5033470875b251a6f65a01c8916e03",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-rzeszow-budziwojska-homicide",
+      "signature": "d613476733c625b7ce0e89710b31cebd616ad45ddc4ad0bcb9e45636bcab31c1",
+      "publicPayloadDigest": "4f09fd9864b79e6c81060fa3c6d63ca0123df902d2e648c9a10a399321091468",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-iwierzyce-ropczyce-45yo-homicide",
+      "signature": "4b9573816a0db57e8f149de17735a4bb124ca0a586e5dbdb72f213e4a7fc0749",
+      "publicPayloadDigest": "acca1f1b0cd45fc11cf958d801613118adda326f0eca27029a2523dedac2df80",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-jedlicze-krosno-89yo-homicide-arrest",
+      "signature": "a21dc1234004862b028d974732a73ad363f4a6b3d305aa7288aeac64fc9326cc",
+      "publicPayloadDigest": "cec243db9622240b7219b75b01f3c5e1f85a568ff478ac2d373e22c757e20a4d",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2005-zabrze-archiwum-x-indictment",
+      "signature": "6123da41f3965099befabf17d0c36b09317ec9c476bb2093e048426ef2d8e9fa",
+      "publicPayloadDigest": "80d545f6cebf38b1dc4a1a498882b5a98ea7d4e1b01ee15bbbc33788385b072e",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2014-plonsk-archiwum-x-arrest",
+      "signature": "7c5d16c2976985b8ed68ab92b807e9800fc86f7ded4d6d16280456690ede3d4a",
+      "publicPayloadDigest": "44fb571b76546d87c527082c3b81978374ce10fffeadd3effcceb6ab4f0922f3",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2021-raciborz-police-officer-homicide-trial",
+      "signature": "4ed21614502f262b6be49f6fa10254ca09b40f50eb1e0b4b76d6c470349e9dd5",
+      "publicPayloadDigest": "b70055116830a5b8a94bdd1e6cf80bc368f3992981246afe3e9fc88ecf6604b7",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2021-roszkow-raciborz-staged-drowning-conviction",
+      "signature": "2b5cf2416538e3417ae61cb0b65868207614ba435b908d99e4e2b5302d9a0707",
+      "publicPayloadDigest": "0fad27981f96117f8e8769ac5e41481ecba318b85263b67170ddf9ac853c7739",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2023-radlin-wodzislaw-homicide",
+      "signature": "b7f59ac09fffde9fb82327708c5193ebebf3a6131865dae2fe5f4aecffd96644",
+      "publicPayloadDigest": "e12b996381899b44b29d38a8f42684a45c208f26b5b32eab968cfa20da763475",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2024-bielsko-biala-life-sentence",
+      "signature": "a7ac3edcb43cfc75c65a7061811d036432621ebd88c96d12252d915df66b94f3",
+      "publicPayloadDigest": "c422badfe9e367f65aa5db3da920f5c590d79958e15a611961e9e929a8832583",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2025-cieszyn-83yo-robbery-homicide-indictment",
+      "signature": "13c140f55c7876645669f8ec0245fed1df31695798e137d84b3900432aec34c8",
+      "publicPayloadDigest": "830be0ccb12cac0af8d271b5a60383626455af4ec602f055a6f45c81a70cff90",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    },
+    {
+      "caseId": "case-2026-sosnowiec-jezor-61yo-homicide",
+      "signature": "63779b792e0e431f693a80161797940d104c18762ed75537babe132a3f3ac1d5",
+      "publicPayloadDigest": "0c041e956ad18c85da1a500ccc90b4023fafe6d465701d4e2cb546c8e1de70cd",
+      "approvedBy": "Grzegorz (RolePlayingTech)",
+      "approvedAt": "2026-11-09",
+      "approvalRef": "REL-2026-11-09-BATCH-88"
+    }
+  ]
+}

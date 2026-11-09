@@ -1,0 +1,18 @@
+[
+  {"teryt":"02","name":"Dolnośląskie","lat":51.11,"lng":17.03},
+  {"teryt":"04","name":"Kujawsko-pomorskie","lat":53.12,"lng":18.01},
+  {"teryt":"06","name":"Lubelskie","lat":51.25,"lng":22.57},
+  {"teryt":"08","name":"Lubuskie","lat":52.74,"lng":15.24},
+  {"teryt":"10","name":"Łódzkie","lat":51.76,"lng":19.46},
+  {"teryt":"12","name":"Małopolskie","lat":50.06,"lng":19.94},
+  {"teryt":"14","name":"Mazowieckie","lat":52.23,"lng":21.01},
+  {"teryt":"16","name":"Opolskie","lat":50.67,"lng":17.92},
+  {"teryt":"18","name":"Podkarpackie","lat":50.04,"lng":22.00},
+  {"teryt":"20","name":"Podlaskie","lat":53.13,"lng":23.16},
+  {"teryt":"22","name":"Pomorskie","lat":54.35,"lng":18.65},
+  {"teryt":"24","name":"Śląskie","lat":50.26,"lng":19.03},
+  {"teryt":"26","name":"Świętokrzyskie","lat":50.87,"lng":20.63},
+  {"teryt":"28","name":"Warmińsko-mazurskie","lat":53.78,"lng":20.48},
+  {"teryt":"30","name":"Wielkopolskie","lat":52.41,"lng":16.93},
+  {"teryt":"32","name":"Zachodniopomorskie","lat":53.43,"lng":14.55}
+]
